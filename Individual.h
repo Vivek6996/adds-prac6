@@ -6,9 +6,7 @@
 class Individual {
 
     public:
-        Individual();
         Individual(std::string lenDNA);
-
         std::string getString();
         int getBit(int pos);
         void flipBit(int pos);

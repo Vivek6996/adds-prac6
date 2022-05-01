@@ -1,9 +1,5 @@
 #include "Individual.h"
 
-Individual::Individual(){
-
-    
-}
 
 Individual::Individual(std::string lenDNA){
 
@@ -69,7 +65,6 @@ for (int i = 0; i < len; i++){
 
 
 }
-
     return max;
 
 }
