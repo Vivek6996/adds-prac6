@@ -9,6 +9,6 @@ using namespace std;
 
 Individual Rearrange::mutate(Individual person, int k){
 
-
+    return person;
 
 }

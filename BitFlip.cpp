@@ -1,5 +1,4 @@
 #include "BitFlip.h"
-#include "Individual.h"
 #include "Mutator.h"
 
 #include <iostream>

@@ -6,7 +6,7 @@
 
 BitFlipProb::BitFlipProb(double p){
 
-    p = NULL;
+    p = 0.00;
 }
 
 
@@ -14,7 +14,7 @@ BitFlipProb::BitFlipProb(double p){
 
  Individual BitFlipProb::mutate(Individual person, int k){
 
-
+     return person;
      
 
  }
