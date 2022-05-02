@@ -9,7 +9,6 @@
 class Mutator {
 
     public:
-        Mutator();
         virtual Individual mutate(Individual person, int k) = 0;
 
 

@@ -11,9 +11,6 @@ class Rearrange: public Mutator {
     public:
     Individual mutate(Individual person, int k);
 
-    private:
-        int lenList;
-        int track;
 
 
 };

@@ -15,6 +15,7 @@ Individual::Individual(std::string lenDNA){
 
 Individual::Individual(int lengthh){
 
+    lengthh = 0;
     
 }
 
