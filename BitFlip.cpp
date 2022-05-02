@@ -7,9 +7,9 @@
 
 using namespace std;
 
-Individual* BitFlip::mutate(Individual* person, int k){
+Individual BitFlip::mutate(Individual person, int k){
 
-    lenList = person->getLength();
+    lenList = person.getLength();
 
     track = k % lenList;
 
@@ -19,7 +19,7 @@ Individual* BitFlip::mutate(Individual* person, int k){
         track = track - 1;
     }
 
-    person->flipBit(track);
+    person.flipBit(track);
 
     return person;
 }

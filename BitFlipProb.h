@@ -11,7 +11,7 @@ class BitFlipProb: public Mutator {
 
     public:
     BitFlipProb(double p);
-    Individual* mutate(Individual* person, int k);
+    Individual mutate(Individual person, int k);
 
 
 };

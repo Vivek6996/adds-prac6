@@ -7,7 +7,7 @@
 #include <string>
 using namespace std;
 
-Individual* Rearrange::mutate(Individual* person, int k){
+Individual Rearrange::mutate(Individual person, int k){
 
 
 

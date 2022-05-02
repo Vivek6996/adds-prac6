@@ -1,5 +1,6 @@
 #include "Individual.h"
 
+#include <string>
 
 Individual::Individual(std::string lenDNA){
 
@@ -10,6 +11,13 @@ Individual::Individual(std::string lenDNA){
     }
     binaryString = lenDNA;
 }
+
+
+Individual::Individual(int lengthh){
+
+    
+}
+
 
 std::string Individual::getString(){
 
