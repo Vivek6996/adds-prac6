@@ -9,7 +9,7 @@
 class BitFlip: public Mutator {
 
     public:
-    Individual mutate(Individual person, int k);
+     Individual* mutate(Individual * person, int k);
 
     private:
         int lenList;

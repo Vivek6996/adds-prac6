@@ -1,5 +1,4 @@
 #include "Individual.h"
-
 #include <string>
 
 Individual::Individual(std::string lenDNA){
@@ -12,13 +11,11 @@ Individual::Individual(std::string lenDNA){
     binaryString = lenDNA;
 }
 
-
 Individual::Individual(int lengthh){
 
     lengthh = 0;
     
 }
-
 
 std::string Individual::getString(){
 
@@ -39,8 +36,6 @@ int Individual::getBit(int pos){
     }
 
     return binaryString[pos];
-
-
 }
 
 void Individual::flipBit(int pos){
@@ -72,10 +67,8 @@ for (int i = 0; i < len; i++){
         sum = 0;
     }
 
-
 }
     return max;
-
 }
 
 int Individual::getLength(){

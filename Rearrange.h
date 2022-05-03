@@ -9,7 +9,7 @@
 class Rearrange: public Mutator {
 
     public:
-    Individual mutate(Individual person, int k);
+     Individual* mutate(Individual * person, int k);
 
 
 

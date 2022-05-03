@@ -12,7 +12,7 @@ BitFlipProb::BitFlipProb(double p){
 
 
 
- Individual BitFlipProb::mutate(Individual person, int k){
+ Individual* BitFlipProb::mutate(Individual * person, int k){
 
      return person;
      
