@@ -51,6 +51,8 @@ int main(){
         cout << mutateS[i];
     }
 
+    cout << " ";
+
     string x = i4->getString();
 
     int m = i4->getMaxOnes();
@@ -60,7 +62,9 @@ int main(){
             cout << x[i];
     }
 
-    cout << m;
+    cout << " ";
+
+    cout << m << '\n';
 
     return 0;
 
